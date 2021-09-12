@@ -6,7 +6,7 @@ The purpose of this project was to create a weather dashboard that allows Users 
 # User Story
     AS A traveler
     I WANT to see the weather outlook for multiple cities
-    O THAT I can plan a trip accordingly
+    SO THAT I can plan a trip accordingly
 
 # Acceptance Criteria
     GIVEN a weather dashboard with form inputs
