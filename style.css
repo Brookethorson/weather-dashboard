@@ -1,0 +1,74 @@
+header {
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to right, blue, rgb(92, 2, 92));
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.search {
+    padding: 0;
+}
+
+.previous-city {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    
+}
+.show-city {
+    padding: 10px;
+}
+.no-padding {
+    padding: 10px;
+}
+
+.card-body {
+    width: 100%;
+    border: solid 1px darkslategrey;
+}
+
+.uv-low {
+    background: green;
+}
+
+.uv-fair {
+    background: yellow;
+}
+
+.uv-moderate {
+    background: orange;
+}
+
+.uv-moderate-high {
+    background:red;
+
+}
+
+.uv-severe {
+    background: darkred;
+}
+
+.day-forecast > .city-forecast-day {
+    display: inline-block;
+    zoom: 1;
+    margin-right: 10px;
+    width: 210px;
+    text-align: left;
+    color: white;
+
+}
+
+.card-body > .forecast-icon {
+    width: 60px;
+    height: 60px;
+}
+.forecast-body {
+    padding: 10px;
+    background-color: blue;
+}
+
+
+

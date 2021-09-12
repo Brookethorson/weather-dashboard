@@ -148,8 +148,9 @@ $(function(){
                     $(forecastDate).html(`${(dayDate.getMonth() + 1)}/${dayDate.getDate()}/${dayDate.getFullYear()}`);
                     //adds image to 5-day card
                     let imgIcon = $("<img>");
+                    $(imgIcon).addClass("forecast-icon");
                     $(imgIcon).attr("src", `https://openweathermap.org/img/wn/${fiveDays[i].weather[0].icon}@2x.png`);
-                    
+                    $(imgIcon).attr("alt", `city-forecast-icon-${(i + 1)}`);
                    
                    //adds wind speed to 5-day card
                    let dayWindSp = $("<div>");
