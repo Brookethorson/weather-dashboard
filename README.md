@@ -34,4 +34,4 @@ This applications is not regularly reviewed for accuracy.
 
 # Link
 
-View the deployed Site at 
+View the deployed Site at  https://brookethorson.github.io/weather-dashboard/
