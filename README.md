@@ -26,6 +26,7 @@ The purpose of this project was to create a weather dashboard that allows Users 
 This applications is not regularly reviewed for accuracy.
 
 # Screenshot
+![alt text](https://github.com/Brookethorson/weather-dashboard/blob/main/Screen%20Shot.JPG)
 
 # Author
  

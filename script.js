@@ -1,9 +1,9 @@
 $(function(){
 
     let sidebarData = {
-        //predefined start cities
-        previousCity : ["Fairfield","Concord", "San Jose", "Tahoe", "South San Francisco", "San Francisco", "Vacaville", "Los Angeles", "Portland"],
-        lastSearchedCity : "San Francisco",
+        //set default city searches
+        previousCity : ["Napa", "Tahoe", "San Jose", "Vacaville", "Fairfield"],
+        lastSearchedCity : "San Diego",
     }
 
     const weatherSaved ="weather-key"
@@ -66,8 +66,8 @@ $(function(){
             if(sidebarData. previousCity.indexOf(cityName) < 0) {
                 //adds and removes cities from sidebar
                 $("#previous-city").empty();
-                sidebarData.previousCity.pop();
-                sidebarData.previousCity.splice(0, 0, cityName);
+                 sidebarData.previousCity.pop();
+                 sidebarData.previousCity.splice(0, 0, cityName);
             }
  
             sidebarData.lastSearchedCity = cityName;
